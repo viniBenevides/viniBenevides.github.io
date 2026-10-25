@@ -1,25 +1,64 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!-- Vinicius Rodrigues Machado Benevides 81768 -->
+
+    <title>My Web Development Exercises</title>
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
-
-    </style>
 
 </head>
-<body>
-    <h1>Hello, World!</h1>
-</body>
-<body>
-    <h1>Welcome to my Page </h1>
-    <p> This is a Simple Test for HTML exercise </p>
-    <p><a href="exercises/page-1.html"> A tale of Two Cities </a></p>
-    <p><a href="exercises/page-2.html"> Purple Rain </a></p>
-    <p><a href="exercises/page-3.html"> Lorem Ipsum </a></p>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="px-6 py-8 md:px-20">
+        <h1 class="text-3xl font-bold mb-4">
+            Welcome to My Page
+        </h1>
+
+        <p class="text-lg">
+            This is a simple test for HTML exercise.
+        </p>
+    </header>
+
+    <main class="px-6 md:px-20">
+
+        <nav aria-label="Exercise pages">
+            <h2 class="text-xl font-semibold mb-4">
+                My Exercises
+            </h2>
+
+            <ul class="space-y-3">
+
+                <li>
+                    <a href="exercises/page-1.html"
+                       class="text-blue-700 underline hover:text-blue-900">
+                        A Tale of Two Cities
+                    </a>
+                </li>
+
+                <li>
+                    <a href="exercises/page-2.html"
+                       class="text-blue-700 underline hover:text-blue-900">
+                        Purple Rain
+                    </a>
+                </li>
+
+                <li>
+                    <a href="exercises/page-3.html"
+                       class="text-blue-700 underline hover:text-blue-900">
+                        Lorem Ipsum
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </main>
 
 </body>
 </html>
